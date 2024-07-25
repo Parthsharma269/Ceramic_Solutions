@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+    /* border: 1px solid red !important; */
+    transition: all 255ms linear !important;
+}
+
+.ff_Manrope {
+    font-family: "Manrope", sans-serif;
+}
+
+.ff_Plus {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.show {
+    right: 0 !important;
+}
+
+.accord-para {
+    display: none !important;
+}
+
+.H_Logo_Img {
+    max-height: 52px;
+    max-width: 105.67px;
+}
+
+.Nav_Btn {
+    width: 186px;
+    height: 52px;
+    border-radius: 56px;
+    background-color: #FF0000;
+    padding: 16px 20px 16px 20px;
+}
+
+.Nav_Box {
+    border: none;
+    height: 84px;
+    outline: none;
+    width: 1140px;
+    padding: 16px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+
+.Get {
+    width: 173px;
+    height: 63px;
+    border: none;
+    outline: none;
+    border-radius: 56px;
+    background-color: #FF0000;
+    padding: 20px 32px 20px 32px;
+}
+
+.View {
+    width: 228px;
+    height: 63px;
+    border: none;
+    outline: none;
+    border-radius: 56px;
+    background-color: #FF0000;
+    padding: 20px 32px 20px 32px;
+}
+
+.Sub {
+    border: none;
+    width: 160px;
+    outline: none;
+    height: 55.73px;
+    border-radius: 62px;
+    background-color: #FF0000;
+}
+
+.H_BG_Img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/H_BG_Img.png");
+}
+
+.Oranged_BG_Img {
+    border-radius: 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/Oranged_BG_Img.png");
+}
+
+.Box_1 {
+    padding: 12px;
+    width: 229.17px;
+    max-height: 85px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 0.83px solid #14141426;
+}
+
+.Icon_m_w {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.Icon_m_w_2 {
+    max-width: 53.33px;
+    max-height: 53.33px;
+}
+
+.Icon_m_w_3 {
+    max-width: 81px;
+    max-height: 80px;
+}
+
+.Box_2 {
+    height: 470px;
+    padding: 24px;
+    max-width: 364px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #0000001F;
+}
+
+.Box_2:hover {
+    transition: all 150ms linear;
+    border: 0 solid #0000001F;
+    box-shadow: 0px 0px 12px 3px #B6B6B640;
+}
+
+.Box_3 {
+    width: 62px;
+    height: 62px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #B400011A;
+}
+
+.Choose_Img_m_w {
+    max-width: 549px;
+    max-height: 603px;
+}
+
+.Slider_Box {
+    height: 305px;
+    padding: 24px;
+    max-width: 364px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 44px 3px #5757571A;
+}
+
+.Slider_Img_m_w {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.Accordian_Box {
+    height: 72px;
+    width: 912px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 21px 20px 21px 20px;
+    box-shadow: 0px 2px 44px 3px #5757571A;
+}
+
+.Works_Img_m_w {
+    max-width: 485px;
+    max-height: 631px;
+}
+
+.Box_4 {
+    padding: 16px;
+    max-width: 592px;
+    max-height: 100%;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 28px 1px #4747471A;
+}
+
+.Oranged_Tick_m_w {
+    max-width: 26.67px;
+    max-height: 26.67px;
+}
+
+.Box_5 {
+    width: 364px;
+    height: 96px;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 44px 3px #5757571A;
+}
+
+.Location_Icon_m_w {
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.Footer_Logo_m_w {
+    max-height: 86px;
+    max-width: 175.59px;
+}
+
+.Footer_Icon_m_w {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.Footer_Border_Bottom {
+    border-top: 1px solid;
+    border-image-source: linear-gradient(90deg, #16161600 0%, #696969 51.56%, #16161600 100%);
+}
+
+.Footer_InPut_Btn {
+    height: 74px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    cursor: pointer;
+    max-width: 340px;
+    box-shadow: -13.01px 13.01px 104.09px 0px #A1A1A11A;
+}
