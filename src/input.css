@@ -32,6 +32,11 @@
     display: none !important;
 }
 
+.Common_Btn:hover {
+    transition: all 255ms linear;
+    box-shadow: 0 0 10px #ff4500;
+}
+
 .H_Logo_Img {
     max-height: 52px;
     max-width: 105.67px;
