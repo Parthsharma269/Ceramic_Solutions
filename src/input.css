@@ -157,9 +157,9 @@
 }
 
 .Slider_Box {
-    height: 305px;
     padding: 24px;
     max-width: 364px;
+    max-height: 100%;
     border-radius: 24px;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 44px 3px #5757571A;
@@ -235,4 +235,28 @@
     cursor: pointer;
     max-width: 340px;
     box-shadow: -13.01px 13.01px 104.09px 0px #A1A1A11A;
+}
+
+.slick-dots {
+    bottom: -11% !important;
+}
+
+.slick-dots li button {
+    display: none !important;
+}
+
+.slick-dots li {
+    width: 10px !important;
+    height: 10px !important;
+    font-size: 16px !important;
+    border-radius: 50% !important;
+    background: #D9D9D9 !important;
+}
+
+.slick-dots li.slick-active {
+    width: 10px !important;
+    height: 10px !important;
+    font-size: 16px !important;
+    border-radius: 50% !important;
+    background: #FF0000 !important;
 }

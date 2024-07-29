@@ -13,10 +13,7 @@ $('.Slider_1').slick({
     infinite: true,
     slidesToShow: 3.9,
     slidesToScroll: 1,
-    focusOnSelect: true,
     autoplaySpeed: 2000,
-    adaptiveHeight: true,
-    centerPadding: '24px',
     responsive: [
         {
             breakpoint: 1441,
@@ -28,10 +25,7 @@ $('.Slider_1').slick({
                 slidesToShow: 3,
                 centerMode: true,
                 slidesToScroll: 1,
-                focusOnSelect: true,
                 autoplaySpeed: 2000,
-                adaptiveHeight: true,
-                centerPadding: '24px',
             }
         },
         {
@@ -44,10 +38,7 @@ $('.Slider_1').slick({
                 slidesToShow: 2,
                 centerMode: true,
                 slidesToScroll: 1,
-                focusOnSelect: true,
                 autoplaySpeed: 2000,
-                adaptiveHeight: true,
-                centerPadding: '24px',
             }
         },
         {
@@ -60,10 +51,7 @@ $('.Slider_1').slick({
                 slidesToShow: 2,
                 centerMode: true,
                 slidesToScroll: 1,
-                focusOnSelect: true,
                 autoplaySpeed: 2000,
-                adaptiveHeight: true,
-                centerPadding: '24px',
             }
         },
         {
@@ -74,13 +62,34 @@ $('.Slider_1').slick({
                 autoplay: true,
                 infinite: true,
                 slidesToShow: 1,
-                centerMode: true,
                 slidesToScroll: 1,
-                focusOnSelect: true,
                 autoplaySpeed: 2000,
-                adaptiveHeight: true,
-                centerPadding: '24px',
             }
         }
+    ]
+});
+
+$('.Slider_2').slick({
+    dots: true,
+    arrows: true,
+    autoplay: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplaySpeed: 2000,
+    responsive: [
+        {
+            breakpoint: 320,
+            settings: {
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                infinite: true,
+                slidesToShow: 1,
+                centerMode: true,
+                slidesToScroll: 1,
+                autoplaySpeed: 2000,
+            }
+        },
     ]
 });
