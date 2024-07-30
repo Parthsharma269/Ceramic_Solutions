@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -20,16 +20,12 @@
     font-family: "Manrope", sans-serif;
 }
 
-.ff_Plus {
+.ff_plus {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .show {
     right: 0 !important;
-}
-
-.accord-para {
-    display: none !important;
 }
 
 .Common_Btn:hover {
@@ -46,7 +42,7 @@
     width: 186px;
     height: 52px;
     border-radius: 56px;
-    background-color: #FF0000;
+    background-color: #ff0000;
     padding: 16px 20px 16px 20px;
 }
 
@@ -66,8 +62,20 @@
     border: none;
     outline: none;
     border-radius: 56px;
-    background-color: #FF0000;
+    background-color: #ff0000;
     padding: 20px 32px 20px 32px;
+}
+
+.Get_2 {
+    width: 173px;
+    height: 63px;
+    border-radius: 56px;
+    background-color: #FFFFFF;
+    padding: 20px 32px 20px 32px;
+}
+
+.Get_2:hover {
+    box-shadow: 1px 2px 3px 4px whitesmoke;
 }
 
 .View {
@@ -76,7 +84,7 @@
     border: none;
     outline: none;
     border-radius: 56px;
-    background-color: #FF0000;
+    background-color: #ff0000;
     padding: 20px 32px 20px 32px;
 }
 
@@ -86,10 +94,11 @@
     outline: none;
     height: 55.73px;
     border-radius: 62px;
-    background-color: #FF0000;
+    background-color: #ff0000;
 }
 
 .H_BG_Img {
+    height: 860px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,8 +147,8 @@
 }
 
 .Box_2:hover {
-    transition: all 150ms linear;
     border: 0 solid #0000001F;
+    transition: all 150ms linear;
     box-shadow: 0px 0px 12px 3px #B6B6B640;
 }
 
@@ -171,7 +180,7 @@
 }
 
 .Accordian_Box {
-    height: 72px;
+    height: 100%;
     width: 912px;
     border-radius: 16px;
     background-color: #FFFFFF;
@@ -207,6 +216,10 @@
     box-shadow: 0px 2px 44px 3px #5757571A;
 }
 
+.Box_5:hover {
+    box-shadow: 3px 3px 0px 0px #5757571A;
+}
+
 .Location_Icon_m_w {
     max-width: 48px;
     max-height: 48px;
@@ -220,11 +233,6 @@
 .Footer_Icon_m_w {
     max-width: 32px;
     max-height: 32px;
-}
-
-.Footer_Border_Bottom {
-    border-top: 1px solid;
-    border-image-source: linear-gradient(90deg, #16161600 0%, #696969 51.56%, #16161600 100%);
 }
 
 .Footer_InPut_Btn {
