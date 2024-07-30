@@ -138,9 +138,9 @@
 }
 
 .Box_2 {
-    height: 470px;
     padding: 24px;
     max-width: 364px;
+    max-height: 470px;
     border-radius: 24px;
     background-color: #FFFFFF;
     border: 1px solid #0000001F;
