@@ -16,16 +16,25 @@ $('.Slider_1').slick({
     autoplaySpeed: 2000,
     responsive: [
         {
+            breakpoint: 1921,
+            settings: {
+                dots: false,
+                arrows: false,
+                autoplay: true,
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+            }
+        },
+        {
             breakpoint: 1441,
             settings: {
                 dots: false,
                 arrows: false,
                 autoplay: true,
                 infinite: true,
-                slidesToShow: 3,
-                centerMode: true,
+                slidesToShow: 3.5,
                 slidesToScroll: 1,
-                autoplaySpeed: 2000,
             }
         },
         {
@@ -35,10 +44,8 @@ $('.Slider_1').slick({
                 arrows: false,
                 autoplay: true,
                 infinite: true,
-                slidesToShow: 2,
-                centerMode: true,
+                slidesToShow: 2.5,
                 slidesToScroll: 1,
-                autoplaySpeed: 2000,
             }
         },
         {
@@ -49,9 +56,7 @@ $('.Slider_1').slick({
                 autoplay: true,
                 infinite: true,
                 slidesToShow: 2,
-                centerMode: true,
                 slidesToScroll: 1,
-                autoplaySpeed: 2000,
             }
         },
         {
@@ -86,7 +91,6 @@ $('.Slider_2').slick({
                 autoplay: true,
                 infinite: true,
                 slidesToShow: 1,
-                centerMode: true,
                 slidesToScroll: 1,
                 autoplaySpeed: 2000,
             }
@@ -97,7 +101,7 @@ $('.Slider_2').slick({
 let mybutton = document.getElementById("myBtn");
 window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
-    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    if (document.body.scrollTop > 555 || document.documentElement.scrollTop > 555) {
         mybutton.style.display = "block";
     } else {
         mybutton.style.display = "none";
