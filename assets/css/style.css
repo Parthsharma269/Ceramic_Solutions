@@ -146,14 +146,6 @@
     box-shadow: 0px 0px 12px 3px #B6B6B640;
 }
 
-.Box_3 {
-    width: 62px;
-    height: 62px;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: #B400011A;
-}
-
 .Choose_Img_m_w {
     max-width: 549px;
     max-height: 603px;
@@ -183,8 +175,8 @@
 }
 
 .Why_Icon_Img_m_w {
-    max-width: 24px;
-    max-height: 22.67px;
+    max-width: 62px;
+    max-height: 62px;
 }
 
 .Works_Img_m_w {
