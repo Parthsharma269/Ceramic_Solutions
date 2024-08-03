@@ -180,8 +180,8 @@
 }
 
 .Works_Img_m_w {
-    max-width: 485px;
-    max-height: 631px;
+    max-width: 435px;
+    max-height: 581px;
 }
 
 .Box_4 {
@@ -264,10 +264,6 @@
     background: #FF0000 !important;
 }
 
-#myBtn:hover {
-    background-color: #ffa07a;
-}
-
 #myBtn {
     right: 30px;
     z-index: 99;
@@ -279,6 +275,5 @@
     position: fixed;
     cursor: pointer;
     border-radius: 50px;
-    background-color: #ffa07a;
-    box-shadow: 0 0 10px #ff4500;
+    background-color: #FF0000;
 }
