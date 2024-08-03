@@ -111,3 +111,20 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    var headers = document.querySelectorAll('.Accordion_Header');
+    headers.forEach(function (header) {
+        header.addEventListener('click', function () {
+            var content = this.nextElementSibling;
+            document.querySelectorAll('.Accordion_Content').forEach(function (content) {
+                content.style.display = "none";
+            });
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    });
+});
