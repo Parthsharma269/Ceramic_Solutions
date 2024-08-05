@@ -9,19 +9,17 @@ menuicon.addEventListener("click", () => {
 $('.Slider_1').slick({
     dots: false,
     arrows: false,
-    autoplay: true,
     infinite: true,
-    slidesToShow: 3.9,
+    autoplay: true,
+    slidesToShow: 1,
+    cssEase: "linear",
     slidesToScroll: 1,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
+    variableWidth: true,
     responsive: [
         {
             breakpoint: 1921,
             settings: {
-                dots: false,
-                arrows: false,
-                autoplay: true,
-                infinite: true,
                 slidesToShow: 5,
                 slidesToScroll: 1,
             }
@@ -29,21 +27,13 @@ $('.Slider_1').slick({
         {
             breakpoint: 1441,
             settings: {
-                dots: false,
-                arrows: false,
-                autoplay: true,
-                infinite: true,
-                slidesToShow: 3.5,
+                slidesToShow: 3,
                 slidesToScroll: 1,
             }
         },
         {
             breakpoint: 1025,
             settings: {
-                dots: false,
-                arrows: false,
-                autoplay: true,
-                infinite: true,
                 slidesToShow: 2.5,
                 slidesToScroll: 1,
             }
@@ -51,10 +41,6 @@ $('.Slider_1').slick({
         {
             breakpoint: 769,
             settings: {
-                dots: false,
-                arrows: false,
-                autoplay: true,
-                infinite: true,
                 slidesToShow: 2,
                 slidesToScroll: 1,
             }
@@ -62,13 +48,8 @@ $('.Slider_1').slick({
         {
             breakpoint: 640,
             settings: {
-                dots: false,
-                arrows: false,
-                autoplay: true,
-                infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                autoplaySpeed: 2000,
             }
         }
     ]

@@ -285,3 +285,10 @@
     border-radius: 50px;
     background-color: #FF0000;
 }
+
+.slick-track {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    gap: 24px !important;
+    display: flex !important;
+}
