@@ -176,10 +176,9 @@
     background-color: #FFFFFF;
     padding: 21px 20px 21px 20px;
     box-shadow: 0px 2px 44px 3px #5757571A;
-}
-
-.Accordian_Box:hover {
-    box-shadow: 7px 7px 0px 0px #5757571A;
+    transition-property: all !important;
+    transition-duration: 300ms !important;
+    transition-timing-function: cubic-bezier(0.5, 0, 0.4, 2) !important;
 }
 
 .Why_Icon_Img_m_w {
